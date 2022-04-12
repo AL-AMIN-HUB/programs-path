@@ -1,0 +1,752 @@
+.cloudOps_section {
+  /*-----------------------------------
+  styles all row 
+  ----------------------------------*/
+  .learningPath_main,
+  .second_path_learning {
+    padding: 100px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    position: relative;
+  }
+
+  .third_path_learning,
+  .fourth_path_learning {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    position: relative;
+  }
+  .fourth_path_learning {
+    padding: 100px 0 !important;
+  }
+  .fifth_path_learning,
+  .six_path_learning,
+  .last_path_learning {
+    padding: 100px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    position: relative;
+    z-index: -1;
+  }
+
+  .last_path_learning {
+    padding: 10px 0 100px 0 !important;
+  }
+
+  // Main header background
+  .main_container {
+    background-image: url(https://i.ibb.co/WKMDwFZ/basics-b-basics.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    padding: 30px 0;
+  }
+  .col_learning1 {
+    padding: 1rem;
+    position: relative;
+    h3 {
+      font-size: 18px;
+      color: #9169f4;
+    }
+    h2 {
+      font-size: 48px;
+      margin: 19px 0 10px 25px;
+      color: #2d3540;
+      font-weight: 500;
+    }
+    p {
+      font-size: 18px;
+      font-weight: normal;
+    }
+  }
+  .icon_scroll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 133%;
+    left: 0;
+  }
+  .icon_scroll2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -5%;
+    left: 0;
+  }
+  .icon_learning1,
+  .icon_learning2 {
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: -2px 3px 15px rgba(0, 0, 0, 0.15);
+    position: relative;
+    display: inline-block;
+    top: 0;
+    left: 10px;
+    cursor: pointer;
+  }
+
+  .item_icon2 {
+    font-size: 28px;
+    color: var(--primary_color);
+  }
+  .text_icon {
+    background-color: #9169f4;
+    color: white;
+    padding: 5px 25px;
+    border-radius: 5px;
+    span {
+      font-weight: bold;
+    }
+  }
+  .text_icon2 {
+    color: white;
+    padding: 5px 25px;
+    border-radius: 5px;
+    background-color: orange;
+    span {
+      font-weight: bold;
+    }
+  }
+  .text_icon3 {
+    color: #fff;
+    padding: 5px 25px;
+    border-radius: 5px;
+    background-color: $theme_background;
+    span {
+      font-weight: bold;
+    }
+  }
+
+  /* ----------------------------- 
+    All card Design started 
+    -------------------------------*/
+  .col_learning2 {
+    background-image: linear-gradient(to right, #062530, #1076ba);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+    width: 380px;
+    border-radius: 10px;
+    color: white;
+    margin: 0 auto;
+  }
+  .col_learning3 {
+    background-image: linear-gradient(to right, rgb(60, 255, 0, 0.5), #062530);
+    padding: 1rem 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+    border-radius: 10px;
+    color: white;
+    margin: 0 auto;
+  }
+  .col_learning5 {
+    background-image: linear-gradient(to right, #75a2cc, #82c3fe);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+    width: 216px;
+    height: 250px;
+    border-radius: 10px;
+    color: white;
+    margin: 0 auto;
+  }
+  .col_learning6 {
+    background-image: linear-gradient(to bottom, #4e6ad7, #603de8);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+    width: 216px;
+    height: 250px;
+    border-radius: 10px;
+    color: white;
+    margin: 0 auto;
+  }
+  .col_learning7 {
+    background-image: linear-gradient(to bottom, #a86bf3, #9246be);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+    width: 216px;
+    height: 250px;
+    border-radius: 10px;
+    color: white;
+    margin: 0 auto;
+    top: -86px;
+  }
+  .col_learning8 {
+    background-image: linear-gradient(to bottom, #46d8b7, #10afa6);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+    width: 216px;
+    height: 250px;
+    border-radius: 10px;
+    color: white;
+    margin: 0 auto;
+    top: -77px;
+    left: -25%;
+  }
+  .col_learning9 {
+    background-image: linear-gradient(to bottom, #2c567c, #2b577f);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+    width: 216px;
+    height: 250px;
+    border-radius: 10px;
+    color: white;
+    margin: 0 auto;
+    top: -47px;
+    left: -19%;
+  }
+  .col_learning10 {
+    background-image: linear-gradient(to bottom, #7fc0fc, #66acec);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+    width: 216px;
+    height: 250px;
+    border-radius: 10px;
+    color: white;
+    margin: 0 auto;
+    top: -36%;
+    left: 23%;
+  }
+  .col_learning11 {
+    background-image: linear-gradient(to bottom, #6a81f3, #6039e7);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+    width: 216px;
+    height: 250px;
+    border-radius: 10px;
+    color: white;
+    margin: 0 auto;
+    top: 5%;
+    left: 38px;
+  }
+  .col_learning12 {
+    background-image: linear-gradient(to bottom, #3e6b92, #2c567c);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+    width: 216px;
+    height: 250px;
+    border-radius: 10px;
+    color: white;
+    margin: 0 auto;
+    top: -21%;
+    left: 0;
+  }
+  .col_learning13 {
+    background-image: linear-gradient(to bottom, #a96cf5, #8d3fb4);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+    width: 216px;
+    height: 250px;
+    border-radius: 10px;
+    color: white;
+    margin: 0 auto;
+    top: -23%;
+    left: -20%;
+  }
+  .col_learning14 {
+    background-image: linear-gradient(to bottom, #80c2fd, #6cb0f0);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+    width: 216px;
+    height: 250px;
+    border-radius: 10px;
+    color: white;
+    margin: 0 auto;
+    position: absolute;
+    top: 22%;
+    left: 31%;
+  }
+  .col_learning15 {
+    background-image: linear-gradient(to bottom, #b1f070, #5bb72b);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+    width: 216px;
+    height: 250px;
+    border-radius: 10px;
+    color: white;
+    margin: 0 auto;
+    position: absolute;
+    top: 20%;
+    left: 52%;
+  }
+  .col_learning16 {
+    background: #4279ac;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    position: absolute;
+    width: 216px;
+    height: 250px;
+    border-radius: 10px;
+    color: white;
+    margin: 0 auto;
+    top: -50%;
+    left: 9.5%;
+  }
+  .col_learning17 {
+    background-image: linear-gradient(to bottom, #ae60bb, #4860ef);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    position: absolute;
+    width: 216px;
+    height: 250px;
+    border-radius: 10px;
+    color: white;
+    margin: 0 auto;
+    top: 6%;
+    left: 30%;
+  }
+  .col_learning18 {
+    background-image: linear-gradient(to bottom, #31b8ac, #18b5a9);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    position: absolute;
+    width: 216px;
+    height: 250px;
+    border-radius: 10px;
+    color: white;
+    margin: 0 auto;
+    top: 0;
+    left: 50%;
+  }
+  .col_learning19 {
+    background-image: linear-gradient(to bottom, #75b8f6, #5fa6e7);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    position: absolute;
+    width: 216px;
+    height: 250px;
+    border-radius: 10px;
+    color: white;
+    margin: 0 auto;
+    top: -104%;
+    left: 76%;
+  }
+  .col_learning21,
+  .col_learning22,
+  .col_learning23,
+  .col_learning24 {
+    background-image: linear-gradient(to left, #062539, #116095);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 216px;
+    height: 250px;
+    border-radius: 10px;
+    color: white;
+    margin: 0 auto;
+  }
+  .col_learning24 {
+    position: absolute;
+    top: -8%;
+  }
+
+  // svg path line position
+
+  .col_svg {
+    position: absolute;
+    top: 200px;
+    left: -37px;
+  }
+  .img_main2 {
+    text-align: end;
+  }
+  .path_5 {
+    position: relative;
+    top: -138.5%;
+    left: -40%;
+  }
+  .path_6 {
+    position: relative;
+    top: -283%;
+    right: -109%;
+  }
+  .path_7 {
+    position: relative;
+    top: -431%;
+    right: -148%;
+  }
+  .path_8 {
+    position: relative;
+    top: -740%;
+    right: -166%;
+  }
+  .col_svg2 {
+    position: absolute;
+    bottom: -60.5%;
+    left: 32%;
+  }
+  .item_svg3 {
+    position: absolute;
+    bottom: -60.5%;
+    left: 32%;
+  }
+  .item_svg4 {
+    position: absolute;
+    bottom: -37.5%;
+    left: 85%;
+  }
+  .item_path {
+    position: relative;
+    top: -40px;
+    padding: 0 10px;
+  }
+  .path_svg6 {
+    position: absolute;
+    bottom: -40%;
+    left: -80%;
+  }
+  .path_svg7 {
+    position: absolute;
+    bottom: -81%;
+    left: 70%;
+  }
+  .path_svg8 {
+    position: absolute;
+    top: 100%;
+    left: 13%;
+    z-index: 1;
+  }
+  .svg_path9 {
+    position: absolute;
+    top: 70%;
+    left: 100%;
+    z-index: 1;
+  }
+  .svg_path10 {
+    position: absolute;
+    top: 100%;
+    left: 70%;
+    z-index: 1;
+  }
+  .svg_path11 {
+    position: absolute;
+    top: 100%;
+    left: 35%;
+    z-index: 1;
+  }
+  .img_path14 {
+    position: absolute;
+    top: 100%;
+    left: 45%;
+    z-index: 1;
+  }
+  .img_path15 {
+    position: absolute;
+    top: 100%;
+    left: 45%;
+    z-index: 1;
+  }
+  .svg_path21 {
+    position: absolute;
+    top: -29.5%;
+    width: 255px;
+    left: 18%;
+    z-index: 1;
+    img {
+      width: 120%;
+    }
+  }
+  .svg_path22 {
+    position: absolute;
+    top: 43%;
+    left: 45.5%;
+    width: 180px;
+    z-index: 1;
+    img {
+      width: 65%;
+    }
+  }
+  .svg_path23 {
+    position: absolute;
+    top: 43%;
+    width: 180px;
+    left: 71%;
+    z-index: 1;
+    img {
+      width: 65%;
+    }
+  }
+  .svg_path24 {
+    position: absolute;
+    top: 68.2%;
+    left: 63.3%;
+    z-index: 1;
+    img {
+      width: 130%;
+    }
+  }
+
+  .btn_learning_path {
+    display: block;
+    margin-top: -5px;
+    margin-left: -5rem;
+    padding: 13px 60px;
+    border: 2px solid #9169f4;
+    color: #9169f4;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .btn_learning_path2 {
+    position: absolute;
+    bottom: -40%;
+    left: 60%;
+    display: block;
+    padding: 13px 60px;
+    border: 2px solid #529bdf;
+    color: #529bdf;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .item_desc {
+    position: absolute;
+    bottom: 30px;
+    left: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p {
+      font-size: 16px;
+      margin-bottom: 10px;
+      color: #23649c;
+    }
+    h2 {
+      font-size: 24px;
+    }
+  }
+  .item_icon {
+    margin-left: 30px;
+    font-size: 4rem;
+    position: absolute;
+    top: 10px;
+  }
+  .stand_section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 150px 0;
+    margin: 0 auto;
+    img {
+      width: 100%;
+    }
+    h2 {
+      font-size: 48px;
+      margin: 0 0 32px;
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+  .last_section {
+    padding: 50px;
+    h2 {
+      font-size: 32px;
+      margin: 0 0 32px;
+    }
+    button {
+      padding: 18px 45px;
+      background: $theme_background;
+      border: none;
+      color: white;
+      border-radius: 5px;
+    }
+  }
+  .svg_line {
+    display: block;
+    // z-index: -1;
+  }
+
+  /* -----------------------------
+    Responsive for mobile browsers
+    -------------------------------*/
+  @media only screen and (max-width: 768px) {
+    .text_icon,
+    .text_icon2,
+    .text_icon3 {
+      display: none;
+    }
+    .section_path {
+      padding: 0 15px;
+    }
+    .svg_line {
+      display: none;
+    }
+    .learningPath_main,
+    .second_path_learning,
+    .third_path_learning,
+    .fourth_path_learning,
+    .fifth_path_learning,
+    .six_path_learning,
+    .last_path_learning {
+      padding: 30px 0;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 30px;
+      margin: 10px auto;
+      position: relative;
+    }
+    .icon_scroll,
+    .icon_learning1,
+    .icon_learning2,
+    .btn_learning_path,
+    .btn_learning_path2 {
+      display: none;
+    }
+    .col_learning5,
+    .col_learning6,
+    .col_learning7,
+    .col_learning8,
+    .col_learning9,
+    .col_learning10,
+    .col_learning11,
+    .col_learning12,
+    .col_learning13,
+    .col_learning14,
+    .col_learning15,
+    .col_learning16,
+    .col_learning17,
+    .col_learning18,
+    .col_learning19,
+    .col_learning21,
+    .col_learning22,
+    .col_learning23,
+    .col_learning24 {
+      position: static;
+      width: 75%;
+      height: 100%;
+      border-radius: 10px;
+      color: white;
+      margin: 0 auto;
+      padding: 10px 0;
+      cursor: pointer;
+      transition: all 0.5s;
+    }
+    .col_learning5 {
+      &:hover {
+        transform: translateY(-10px);
+        transition: all 0.5s;
+      }
+    }
+    .col_learning6 {
+      &:hover {
+        transform: translateY(-10px);
+        transition: all 0.5s;
+      }
+    }
+    .col_learning7 {
+      &:hover {
+        transform: translateY(-10px);
+        transition: all 0.5s;
+      }
+    }
+    .col_learning8 {
+      &:hover {
+        transform: translateY(-10px);
+        transition: all 0.5s;
+      }
+    }
+    .col_learning9 {
+      &:hover {
+        transform: translateY(-10px);
+        transition: all 0.5s;
+      }
+    }
+    .col_learning10 {
+      &:hover {
+        transform: translateY(-10px);
+        transition: all 0.5s;
+      }
+    }
+    .col_learning11 {
+      &:hover {
+        transform: translateY(-10px);
+        transition: all 0.5s;
+      }
+    }
+    .col_learning12 {
+      &:hover {
+        transform: translateY(-10px);
+        transition: all 0.5s;
+      }
+    }
+    .col_learning13 {
+      &:hover {
+        transform: translateY(-10px);
+        transition: all 0.5s;
+      }
+    }
+    .col_learning14 {
+      &:hover {
+        transform: translateY(-10px);
+        transition: all 0.5s;
+      }
+    }
+    .col_learning15 {
+      &:hover {
+        transform: translateY(-10px);
+        transition: all 0.5s;
+      }
+    }
+    .col_learning16 {
+      &:hover {
+        transform: translateY(-10px);
+        transition: all 0.5s;
+      }
+    }
+    .col_learning17 {
+      &:hover {
+        transform: translateY(-10px);
+        transition: all 0.5s;
+      }
+    }
+    .col_learning18 {
+      &:hover {
+        transform: translateY(-10px);
+        transition: all 0.5s;
+      }
+    }
+    .col_learning19 {
+      &:hover {
+        transform: translateY(-10px);
+        transition: all 0.5s;
+      }
+    }
+  }
+}

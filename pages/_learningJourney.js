@@ -1,9 +1,10 @@
 import React from "react";
+import Programs from "../components/Programs";
 
 const LearningJourney = () => {
   return (
-    <div>
-      <h3 className="learning_head_content">Hello World</h3>
+    <div className="myJourney">
+      <Programs />
     </div>
   );
 };
