@@ -50,7 +50,7 @@ const DeveloperJourney = () => {
               <p className="learning_sub_title">
                 <small>Introducing Coding for Beginners: an HTML and CSS Online Course</small>
               </p>
-              <button className="custom_bg path_btn">See Your Learning Path</button>
+              <button className="path_btn">See Your Learning Path</button>
             </div>
           </div>
         </VerticalTimelineElement>

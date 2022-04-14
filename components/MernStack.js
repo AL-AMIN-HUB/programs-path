@@ -4,7 +4,7 @@ import React from "react";
 import { BsArrowRightShort } from "react-icons/bs";
 import { AiOutlineArrowDown } from "react-icons/ai";
 
-const CloudOps = () => {
+const MernStack = () => {
   return (
     <section className="cloudOps_section">
       <div className="main_container">
@@ -534,4 +534,4 @@ const CloudOps = () => {
   );
 };
 
-export default CloudOps;
+export default MernStack;

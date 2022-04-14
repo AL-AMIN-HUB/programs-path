@@ -10,9 +10,15 @@
     border-radius: 5px;
     font-size: 18px;
     text-align: center;
+    transition: all 0.5s;
     &:focus {
       background-color: #062530;
       border: 1px solid grey;
+      color: white;
+    }
+    &:hover {
+      background-color: #18c652;
+      border: none;
       color: white;
     }
   }
@@ -26,7 +32,8 @@
   }
 
   .tabs_size {
-    padding: 18px 73.9px;
+    padding: 18px 52.5px;
+    border: none;
   }
   .tabs_size_last {
     width: 97%;
@@ -34,6 +41,7 @@
     background-color: rgba(255, 0, 0, 0.5);
     color: white;
     transition: 0.5s;
+    border: none;
     &:hover {
       background-color: red;
     }
