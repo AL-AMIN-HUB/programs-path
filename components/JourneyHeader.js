@@ -23,10 +23,10 @@ const JourneyHeader = () => {
           </div>
         </div>
       </header>
-      <main style={{ background: "#f8f8f8" }}>
+      <main style={{ background: "#606ebf15" }}>
         <div className="container row">
           <div className="first_column">
-            <h2 className="row_title">Why and How to Become a Web Developer?</h2>
+            <h2 className="row_title">Why And How To Become A Web Developer?</h2>
             <p className="large">
               Web development is always scouting for new talents. Basically, you have three options: a career in front-end or back-end. What is the
               third? The final option means that you become a true mastermind in both of these fields. However, let’s walk before we run.

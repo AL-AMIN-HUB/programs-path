@@ -412,12 +412,12 @@
   }
   .item_svg3 {
     position: absolute;
-    bottom: -60.5%;
+    bottom: -61.5%;
     left: 32%;
   }
   .item_svg4 {
     position: absolute;
-    bottom: -37.5%;
+    bottom: -38%;
     left: 85%;
   }
   .item_path {
@@ -658,90 +658,103 @@
       cursor: pointer;
       transition: all 0.5s;
     }
-    .col_learning5 {
+    .col_learning5,
+    .col_learning6,
+    .col_learning7,
+    .col_learning8,
+    .col_learning9,
+    .col_learning10,
+    .col_learning11,
+    .col_learning12,
+    .col_learning13,
+    .col_learning14,
+    .col_learning15,
+    .col_learning16,
+    .col_learning17,
+    .col_learning18,
+    .col_learning19 {
       &:hover {
         transform: translateY(-10px);
         transition: all 0.5s;
       }
     }
-    .col_learning6 {
-      &:hover {
-        transform: translateY(-10px);
-        transition: all 0.5s;
-      }
+  }
+  @media only screen and (max-width: 1224px) and (min-width: 768px) {
+    .text_icon,
+    .text_icon2,
+    .text_icon3 {
+      display: none;
     }
-    .col_learning7 {
-      &:hover {
-        transform: translateY(-10px);
-        transition: all 0.5s;
-      }
+    .section_path {
+      padding: 0 15px;
     }
-    .col_learning8 {
-      &:hover {
-        transform: translateY(-10px);
-        transition: all 0.5s;
-      }
+    .svg_line {
+      display: none;
     }
-    .col_learning9 {
-      &:hover {
-        transform: translateY(-10px);
-        transition: all 0.5s;
-      }
+    .learningPath_main,
+    .second_path_learning,
+    .third_path_learning,
+    .fourth_path_learning,
+    .fifth_path_learning,
+    .six_path_learning,
+    .last_path_learning {
+      padding: 30px 0;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 30px;
+      margin: 10px auto;
+      position: relative;
     }
-    .col_learning10 {
-      &:hover {
-        transform: translateY(-10px);
-        transition: all 0.5s;
-      }
+    .icon_scroll,
+    .icon_learning1,
+    .icon_learning2,
+    .btn_learning_path,
+    .btn_learning_path2 {
+      display: none;
     }
-    .col_learning11 {
-      &:hover {
-        transform: translateY(-10px);
-        transition: all 0.5s;
-      }
+    .col_learning5,
+    .col_learning6,
+    .col_learning7,
+    .col_learning8,
+    .col_learning9,
+    .col_learning10,
+    .col_learning11,
+    .col_learning12,
+    .col_learning13,
+    .col_learning14,
+    .col_learning15,
+    .col_learning16,
+    .col_learning17,
+    .col_learning18,
+    .col_learning19,
+    .col_learning21,
+    .col_learning22,
+    .col_learning23,
+    .col_learning24 {
+      position: static;
+      width: 75%;
+      height: 100%;
+      border-radius: 10px;
+      color: white;
+      margin: 0 auto;
+      padding: 10px 0;
+      cursor: pointer;
+      transition: all 0.5s;
     }
-    .col_learning12 {
-      &:hover {
-        transform: translateY(-10px);
-        transition: all 0.5s;
-      }
-    }
-    .col_learning13 {
-      &:hover {
-        transform: translateY(-10px);
-        transition: all 0.5s;
-      }
-    }
-    .col_learning14 {
-      &:hover {
-        transform: translateY(-10px);
-        transition: all 0.5s;
-      }
-    }
-    .col_learning15 {
-      &:hover {
-        transform: translateY(-10px);
-        transition: all 0.5s;
-      }
-    }
-    .col_learning16 {
-      &:hover {
-        transform: translateY(-10px);
-        transition: all 0.5s;
-      }
-    }
-    .col_learning17 {
-      &:hover {
-        transform: translateY(-10px);
-        transition: all 0.5s;
-      }
-    }
-    .col_learning18 {
-      &:hover {
-        transform: translateY(-10px);
-        transition: all 0.5s;
-      }
-    }
+    .col_learning5,
+    .col_learning6,
+    .col_learning7,
+    .col_learning8,
+    .col_learning9,
+    .col_learning10,
+    .col_learning11,
+    .col_learning12,
+    .col_learning13,
+    .col_learning14,
+    .col_learning15,
+    .col_learning16,
+    .col_learning17,
+    .col_learning18,
     .col_learning19 {
       &:hover {
         transform: translateY(-10px);
