@@ -196,18 +196,18 @@
     grid-gap: 50px;
   }
   .app1 {
-    margin: 10px;
-    width: 95%;
-    .first_app {
-      position: absolute;
-      top: 20%;
-      left: 22%;
-      text-align: center;
-      color: white;
-    }
-    .app_store {
-      display: flex;
-      flex-direction: column;
-    }
+    margin: 10px auto;
+    width: 90%;
+  }
+  .app_store {
+    display: flex;
+    flex-direction: column;
+  }
+  .app_main .app1 .first_app {
+    position: absolute;
+    top: 20%;
+    left: 23%;
+    text-align: center;
+    color: white;
   }
 }
