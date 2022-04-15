@@ -1,0 +1,219 @@
+.header_img {
+  margin: 20px;
+}
+
+.home_container {
+  background-color: #606ebf15;
+}
+.home,
+.home2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 150px 0;
+  h2 {
+    font-size: 38px;
+    margin: 0 0 25px;
+    color: #062530cb;
+  }
+  h3 {
+    color: #034680;
+  }
+  .button1 {
+    padding: 16px 45px;
+    border-radius: 30px;
+    border: none;
+    margin: 15px 0 0 15px;
+    cursor: pointer;
+    background-color: #062530;
+    color: #fff;
+    font-size: 18px;
+    transition: 0.5s;
+    &:hover {
+      background-color: #034680;
+    }
+  }
+  .button2 {
+    padding: 16px 45px;
+    border-radius: 30px;
+    border: 2px solid #062530;
+    margin: 15px 0 0 15px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #062530;
+    font-size: 18px;
+    transition: 0.5s;
+
+    &:hover {
+      background-color: #062530;
+      color: white;
+    }
+  }
+}
+
+.chat_wrapper {
+  background-image: url(https://i.ibb.co/F3TCgRT/schdule-bg-1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  margin: 100px 0;
+  position: relative;
+}
+
+.chat {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #06253040;
+}
+.chat_content {
+  position: absolute;
+  top: 40%;
+  left: 15%;
+  text-align: center;
+
+  h2 {
+    font-size: 42px;
+    color: rgba(0, 0, 0, 0.746);
+    margin: 0 0 25px;
+  }
+  button {
+    padding: 16px 55px;
+    font-size: 18px;
+    background-color: #062530;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    transition: all 0.5s;
+    cursor: pointer;
+    &:hover {
+      background-color: #034680;
+    }
+  }
+}
+
+.app_section {
+  padding: 50px 0 100px 0;
+}
+.app_main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  .app1 {
+    background-image: linear-gradient(to left, #062530, #034680);
+    width: 100%;
+    height: 500px;
+    border-radius: 13px;
+    position: relative;
+
+    img {
+      width: 250px;
+    }
+    .first_app {
+      position: absolute;
+      top: 32%;
+      left: 10%;
+      text-align: center;
+      color: white;
+    }
+    .app_store {
+      display: flex;
+
+      img {
+        width: 250px;
+        display: block;
+        margin: 0 auto;
+      }
+    }
+  }
+  .app2 {
+    background-image: linear-gradient(to left, #034680, #062530);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .home,
+  .home2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+  }
+  .home2 {
+    flex-direction: column-reverse;
+  }
+
+  .chat_wrapper {
+    background-image: url(https://i.ibb.co/F3TCgRT/schdule-bg-1.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin: 70px 0;
+    position: relative;
+  }
+  .chat_content {
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    text-align: center;
+
+    h2 {
+      font-size: 42px;
+      color: rgba(0, 0, 0, 0.746);
+      margin: 0 0 25px;
+    }
+    button {
+      padding: 16px 55px;
+      font-size: 18px;
+      background-color: #062530;
+      color: white;
+      border: none;
+      border-radius: 30px;
+      transition: all 0.5s;
+      cursor: pointer;
+      &:hover {
+        background-color: #034680;
+      }
+    }
+  }
+  .chat {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #06253040;
+    display: none;
+  }
+  .app_main {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 50px;
+  }
+  .app1 {
+    margin: 10px;
+    width: 95%;
+    .first_app {
+      position: absolute;
+      top: 20%;
+      left: 22%;
+      text-align: center;
+      color: white;
+    }
+    .app_store {
+      display: flex;
+      flex-direction: column;
+
+      img {
+        width: 250px;
+        display: block;
+        margin: 0 auto;
+      }
+    }
+  }
+}
