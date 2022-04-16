@@ -4,7 +4,7 @@ const SemesterMap = () => {
   return (
     <section className="container semester_map_main">
       <section>
-        <h2>Journey for Quarter-1</h2>
+        <h2>Journey for Quarter-1 (15 weeks)</h2>
         <section className="first_journey">
           <div className="journey_row">
             <div className="each_journey">1</div>
@@ -23,14 +23,12 @@ const SemesterMap = () => {
             <div className="each_journey">14</div>
             <div className="each_journey">15</div>
           </div>
-          <div className="line"></div>
         </section>
-        {/*   <h4 className="line_step6">│</h4>
-        <h4 className="line_step7">Daily semester 2</h4>
-        <h4 className="line_step8">│</h4> */}
+
+        {/* semester 2 */}
       </section>
       <section className="second_semester">
-        <h2>Journey for Quarter-2</h2>
+        <h2>Journey for Quarter-2 (21 weeks)</h2>
         <section className="second_journey">
           <div className="journey_row">
             <div className="each_journey">16</div>
@@ -55,14 +53,12 @@ const SemesterMap = () => {
             <div className="each_journey">35</div>
             <div className="each_journey">36</div>
           </div>
-          <div className="line"></div>
         </section>
-        {/*  <h4 className="line_step6">│</h4>
-        <h4 className="line_step7">Daily semester 2</h4>
-        <h4 className="line_step8">│</h4> */}
+
+        {/* semester 3 */}
       </section>
       <section className="third_semester">
-        <h2>Journey for Quarter-3</h2>
+        <h2>Journey for Quarter-3 (9 weeks)</h2>
         <section className="first_journey">
           <div className="journey_row">
             <div className="each_journey">37</div>
@@ -77,9 +73,8 @@ const SemesterMap = () => {
           </div>
           <div className="line"></div>
         </section>
-        {/*   <h4 className="line_step6">│</h4>
-        <h4 className="line_step7">Daily semester 2</h4>
-        <h4 className="line_step8">│</h4> */}
+
+        {/* semester 4 */}
       </section>
       <section className="second_semester">
         <h2> Quarter-4 of the journey (7 weeks)</h2>
@@ -93,11 +88,7 @@ const SemesterMap = () => {
             <div className="each_journey">51</div>
             <div className="each_journey">52</div>
           </div>
-          <div className="line"></div>
         </section>
-        {/*   <h4 className="line_step6">│</h4>
-        <h4 className="line_step7">Daily semester 2</h4>
-        <h4 className="line_step8">│</h4> */}
       </section>
     </section>
   );
