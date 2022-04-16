@@ -1,0 +1,92 @@
+.semester_map_main {
+  padding: 50px 0;
+  h2 {
+    text-align: center;
+    margin: 0 0 25px;
+  }
+
+  .first_journey,
+  .second_journey {
+    padding: 3rem 2rem;
+    box-shadow: -2px 3px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    background-color: #eeeeee;
+    position: relative;
+    border: 1px solid;
+  }
+  .journey_row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 100px;
+    column-gap: 101px;
+    position: relative;
+  }
+  .each_journey {
+    padding: 50px;
+    background-color: #ff9a01;
+    box-shadow: -2px 3px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    border: 1px solid;
+  }
+  .line_step1 {
+    position: absolute;
+    top: 18.5%;
+    left: 29%;
+    background-color: #fff;
+  }
+  .line_step2 {
+    position: absolute;
+    top: 18.5%;
+    left: 63.3%;
+    background-color: #fff;
+  }
+  .line_step3 {
+    position: absolute;
+    top: 41.5%;
+    left: 85%;
+    background-color: #fff;
+  }
+  .line_step4 {
+    position: absolute;
+    top: 62.5%;
+    left: 63.3%;
+    background-color: #fff;
+  }
+  .line_step5 {
+    position: absolute;
+    top: 62.5%;
+    left: 29%;
+    background-color: #fff;
+  }
+  .line_step6 {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+  }
+  .line_step7 {
+    position: absolute;
+    top: 49%;
+    left: 47%;
+  }
+  .line_step8 {
+    position: absolute;
+    top: 51%;
+    left: 49%;
+  }
+  //   semester 2
+  .second_semester {
+    padding: 30px 0;
+    h2 {
+      text-align: right;
+      margin-right: 100px;
+    }
+  }
+  //   semester 3
+  .third_semester {
+    padding: 30px 0;
+    h2 {
+      text-align: left;
+      margin-left: 100px;
+    }
+  }
+}

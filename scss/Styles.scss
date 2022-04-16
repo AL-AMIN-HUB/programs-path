@@ -1,7 +1,6 @@
 @import "../scss/base/globals";
 @import "../scss/base/variable";
 @import "../scss/utils/learningJourney";
-@import "../scss/utils/learningRoadmap";
 
 // components
 @import "../scss/components/cloudops";
@@ -10,3 +9,5 @@
 // pages
 @import "../scss/pages/learningJourney";
 @import "../scss/pages/home";
+@import "../scss/pages/semester-map";
+@import "../scss/pages/review";
