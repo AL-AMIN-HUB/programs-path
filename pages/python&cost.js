@@ -14,7 +14,7 @@ const Python = () => {
               <p>Powered by TS4U </p>
             </div>
             <div>
-              <img src="https://i.ibb.co/f1dXWBZ/cloud-computing-2.gif" alt="" />
+              <img src="https://i.ibb.co/x7f3767/1650225393351-97686-cloud-animation-unscreen.gif" alt="" />
             </div>
           </div>
         </div>
