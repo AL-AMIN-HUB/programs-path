@@ -1,0 +1,79 @@
+.main_parent {
+  .fee_program_header {
+    background-color: #062530;
+    color: white;
+    padding: 30px 0;
+
+    img {
+      width: 350px;
+      display: block;
+      border-radius: 10%;
+    }
+    .header_fee {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      h2 {
+        font-size: 48px;
+      }
+      h3 {
+        font-size: 32px;
+        margin: 0 0 25px;
+      }
+      .company {
+        color: #00c9eb;
+      }
+    }
+  }
+
+  .para_text {
+    p {
+      padding: 30px 0;
+      font-size: 24px;
+      color: #062530;
+    }
+  }
+  .apply_row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+    padding: 50px 0;
+  }
+  .each_column {
+    text-align: center;
+    background-color: #062530;
+    padding: 30px;
+    color: white;
+    border-radius: 7px;
+    box-shadow: -2px 3px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    img {
+      display: block;
+      margin: 0 auto 20px;
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+  .payment_text {
+    padding: 50px 0 10px 0;
+    h2 {
+      font-size: 32px;
+      margin: 0 0 25px;
+    }
+    p {
+      font-size: 18px;
+      color: #062530;
+    }
+  }
+  .first_plan {
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: #ccccd4;
+    .fee_plan_row {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      padding: 10px;
+    }
+  }
+}

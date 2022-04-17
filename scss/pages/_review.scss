@@ -7,7 +7,7 @@
   .parent {
     padding: 15px;
     border-radius: 7px;
-    width: 800px;
+    width: 1000px;
     margin: 0 auto;
     box-shadow: -2px 3px 15px rgba(0, 0, 0, 0.1);
     display: grid;
@@ -28,13 +28,15 @@
     }
     h2 {
       text-align: center;
+      font-size: 32px;
     }
     h1 {
       text-align: center;
     }
-    &:hover {
-      background-color: #fff;
-      color: black;
+    .rating {
+      width: 20%;
+      position: absolute;
+      top: 60%;
     }
   }
   @media only screen and (max-width: 768px) {
