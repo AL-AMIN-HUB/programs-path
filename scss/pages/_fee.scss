@@ -68,12 +68,95 @@
   }
   .first_plan {
     padding: 20px;
-    margin-bottom: 10px;
     background-color: #ccccd4;
     .fee_plan_row {
       display: grid;
       grid-template-columns: repeat(5, 1fr);
       padding: 10px;
+    }
+  }
+  .second_plan {
+    padding: 20px;
+    background-color: #e5e5e9;
+    .fee_plan_row {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      grid-gap: 30px;
+      padding: 10px;
+    }
+  }
+  .footer {
+    background-color: #062530;
+    color: white;
+    padding: 50px 10px;
+    h2 {
+      font-size: 32px;
+      margin: 0 0 25px;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main_parent {
+    .header_fee {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+
+      align-items: center;
+      h2 {
+        font-size: 48px;
+      }
+      h3 {
+        font-size: 32px;
+        margin: 0 0 25px;
+      }
+      .company {
+        color: #00c9eb;
+      }
+    }
+
+    .apply_row {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 30px;
+      padding: 30px 0;
+    }
+    .each_column {
+      text-align: center;
+      background-color: #062530;
+      padding: 30px;
+      color: white;
+      border-radius: 7px;
+      box-shadow: -2px 3px 15px rgba(0, 0, 0, 0.1);
+      margin: 0 10px;
+      cursor: pointer;
+      img {
+        display: block;
+        margin: 0 auto 20px;
+      }
+      p {
+        font-size: 18px;
+      }
+    }
+    .first_plan {
+      padding: 20px;
+      background-color: #ccccd4;
+      .fee_plan_row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 10px;
+      }
+    }
+    .second_plan {
+      padding: 20px;
+      background-color: #e5e5e9;
+      .fee_plan_row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+        padding: 10px;
+      }
     }
   }
 }

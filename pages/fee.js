@@ -61,38 +61,94 @@ const Fee = () => {
           <h2>Climb Loan</h2>
           <div className="fee_plan_row">
             <div>
-              <h2>
-                Loan amount <sup>2</sup>
-              </h2>
+              <h3>Loan amount</h3>
               <p>$12,000</p>
             </div>
             <div>
-              <h2>
-                Term (months) <sup>3</sup>
-              </h2>
+              <h3>Term (months)</h3>
               <p>$12,000</p>
             </div>
             <div>
-              <h2>
-                Loan amount <sup>4</sup>
-              </h2>
+              <h3>Interest rate</h3>
               <p>$12,000</p>
             </div>
             <div>
-              <h2>
-                Loan amount <sup>5</sup>
-              </h2>
+              <h3>APR</h3>
               <p>$12,000</p>
             </div>
             <div>
-              <h2>
-                Loan amount <sup>6</sup>
-              </h2>
+              <h3>Principle & Interest Payments</h3>
               <p>$12,000</p>
             </div>
           </div>
         </div>
       </div>
+      <div className="second_plan ">
+        <div className="container">
+          <h2>Climb Loan With Interest-Only Period</h2>
+          <div className="fee_plan_row">
+            <div>
+              <h3>Loan amount</h3>
+              <p>$12,000</p>
+            </div>
+            <div>
+              <h3>Term (months)</h3>
+              <p>$12,000</p>
+            </div>
+            <div>
+              <h3>Interest rate</h3>
+              <p>$12,000</p>
+            </div>
+            <div>
+              <h3>APR</h3>
+              <p>$12,000</p>
+            </div>
+            <div>
+              <h3>Interest only payment</h3>
+              <p>$12,000</p>
+            </div>
+            <div>
+              <h3>Principle & Interest Payments </h3>
+              <p>$12,000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section className="footer">
+        <div className="container">
+          <h2>
+            <a href="https://meetclimb.com/ts4u">Meetclimb.com/ts4u</a>
+          </h2>
+          <ol>
+            <li>
+              {" "}
+              To check the rates and terms you qualify for and your eligibility, Climb conducts a soft credit pull that will not affect your credit
+              score. Once a loan is accepted andfunded, we will request your full credit report from one or more consumer reporting agencies, which is
+              considered a hard credit pull and may affect your credit.
+            </li>
+            <li>Finance up to full tuition.</li>
+            <li>Sample 60-month term includes 60 months of principal and interest payments. Terms vary by program.</li>
+            <li>
+              {" "}
+              Sample 60-month term includes 15 months of interest-only payments flilowed by 45 months of principal and interest payments. Terms vary
+              by program.
+            </li>
+            <li>
+              {" "}
+              Interest rates are fixed from 5.99%; however, actual interest rates vary within this range based on a number of factors. Interest-rate
+              caps may be lower in somestates due to legal requirements and may impact your eligibility to qualify for a Climb loan.
+            </li>
+            <li>
+              {" "}
+              Annual percentage rates (“APRs”) on loans range from 0.00%–26.47%. Interest rate caps may be lower in some states due to state
+              requirements. APRs arecharged for borrowing and are expressed as a percentage that represents the actual yearly cost of funds over the
+              term of a loan. The APR includes a 5% originationfee, where permissible.Loan approval subject to full underwriting. Loans are originated
+              by Climb Investco, LLC (Registered as Climb Credit Investco, LLC in Florida). TS4U does not endorseloans originated by Climb Investco,
+              LLC and Climb Investco, LLC is not affiliated with TS4U. California Finance Lender #60DBO-44527. NMLS Consumer Access(NMLS# 1240013).
+            </li>
+          </ol>
+        </div>
+      </section>
     </section>
   );
 };
