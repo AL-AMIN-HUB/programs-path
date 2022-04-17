@@ -55,7 +55,7 @@ const Steps = () => {
     <section className="container steps_area">
       <div>
         <h2 className="main_head">
-          Get Job Or <span>100% Money Refund</span>
+          Get IT Job Or <span>100% Money Refund</span>
         </h2>
       </div>
       <div className="modal">
