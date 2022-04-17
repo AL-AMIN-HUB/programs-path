@@ -22,6 +22,13 @@ const Steps = () => {
       <Button style={{ background: "#062530", color: "#fff" }} onClick={showModal}>
         1st Step
       </Button>
+      <Button style={{ background: "#062530", color: "#fff" }} onClick={showModal}>
+        2nd Step
+      </Button>
+      <Button style={{ background: "#062530", color: "#fff" }} onClick={showModal}>
+        3rd Step
+      </Button>
+
       <Modal title="TS4U" visible={isModalVisible} onOk={handleOk} onCancel={handleCancel}>
         <p> Explore, set up counselling, apply for program, get approved and join</p>
         <button className="button">Join Our Chat</button>

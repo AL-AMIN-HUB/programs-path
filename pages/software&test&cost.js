@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 
-const Fee = () => {
+const SoftwareTest = () => {
   return (
     <section className="main_parent">
       <section className="fee_program_header">
@@ -10,7 +10,7 @@ const Fee = () => {
             <div>
               <h2>Affordable financing options for</h2>
               <h2 className="company">TS4U</h2>
-              <h3>Program: CloudOps Engineer/DevOps/Aws Cloud Engineer</h3>
+              <h3>Program: Software Test Automation Engineer</h3>
               <p>Powered by TS4U </p>
             </div>
             <div>
@@ -21,10 +21,11 @@ const Fee = () => {
       </section>
       <section className="para_text container">
         <p>
-          At Climb, we strive to only work with programs that consistently improve graduates’ earning potential andjustify the cost of tuition. We’re
-          proud to offer financing for TS4U to help their students pursue life- <br /> changing educational programs.
+          At Climb, we strive to only work with programs that consistently improve graduates’ earning potential and justify the cost of tuition. We’re
+          proud to offer financing for TS4U to help their students pursue life- <span>changing their career!.</span>
         </p>
       </section>
+      <h2 style={{ textAlign: "center", fontSize: "38px" }}>Apply Online In Minutes</h2>
       <div className="apply_row container">
         <div className="each_column">
           <div>
@@ -36,19 +37,19 @@ const Fee = () => {
           <div>
             <img src="https://i.ibb.co/RSQM8Yz/credit-card-2.png" alt="" />
           </div>
-          <p>Applying does notimp your credit score.</p>
+          <p>Applying does not impact your credit score.</p>
         </div>
         <div className="each_column">
           <div>
             <img src="https://i.ibb.co/JQj06wZ/business-and-finance-1.png" alt="" />
           </div>
-          <p>Apply with a qualifyingco-borrwer to geta better rate.</p>
+          <p>Apply with a qualifying co-borrower to get a better rate.</p>
         </div>
         <div className="each_column">
           <div>
             <img src="https://i.ibb.co/xqjvgFx/chat-1.png" alt="" />
           </div>
-          <p>Receive support from ourteam M-F 9am–9pm ET.</p>
+          <p>Receive support from our team M-F 9am–9pm ET.</p>
         </div>
       </div>
       <div className="payment_text container">
@@ -61,24 +62,33 @@ const Fee = () => {
           <h2>Climb Loan</h2>
           <div className="fee_plan_row">
             <div>
-              <h3>Loan amount</h3>
-              <p>$12,000</p>
+              <h3>
+                Loan amount<sup>2</sup>
+              </h3>
+
+              <p>$10,000</p>
             </div>
             <div>
-              <h3>Term (months)</h3>
-              <p>$12,000</p>
+              <h3>
+                Term (months)<sup>3</sup>
+              </h3>
+              <p>54</p>
             </div>
             <div>
-              <h3>Interest rate</h3>
-              <p>$12,000</p>
+              <h3>
+                Interest rate<sup>5</sup>
+              </h3>
+              <p>7.49%</p>
             </div>
             <div>
-              <h3>APR</h3>
-              <p>$12,000</p>
+              <h3>
+                APR<sup>6</sup>
+              </h3>
+              <p>9.78%</p>
             </div>
             <div>
               <h3>Principle & Interest Payments</h3>
-              <p>$12,000</p>
+              <p>$230</p>
             </div>
           </div>
         </div>
@@ -88,28 +98,37 @@ const Fee = () => {
           <h2>Climb Loan With Interest-Only Period</h2>
           <div className="fee_plan_row">
             <div>
-              <h3>Loan amount</h3>
-              <p>$12,000</p>
+              <h3>
+                Loan amount<sup>2</sup>
+              </h3>
+
+              <p>$10,000</p>
             </div>
             <div>
-              <h3>Term (months)</h3>
-              <p>$12,000</p>
+              <h3>
+                Term (months)<sup>4</sup>
+              </h3>
+              <p>54</p>
             </div>
             <div>
-              <h3>Interest rate</h3>
-              <p>$12,000</p>
+              <h3>
+                Interest rate<sup>5</sup>
+              </h3>
+              <p>7.49%</p>
             </div>
             <div>
-              <h3>APR</h3>
-              <p>$12,000</p>
+              <h3>
+                APR<sup>6</sup>
+              </h3>
+              <p>9.35%</p>
             </div>
             <div>
               <h3>Interest only payment</h3>
-              <p>$12,000</p>
+              <p>$66</p>
             </div>
             <div>
               <h3>Principle & Interest Payments </h3>
-              <p>$12,000</p>
+              <p>$304</p>
             </div>
           </div>
         </div>
@@ -153,4 +172,4 @@ const Fee = () => {
   );
 };
 
-export default Fee;
+export default SoftwareTest;
